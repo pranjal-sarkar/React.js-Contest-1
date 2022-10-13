@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30px;
+}
+
+.actualContent{
+    height: 434px;
+    width: 362px;
+    background-color: red;
+}
+
+.nameBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .emailAddress input{
+    width: 80%;
+} */
+
+.lastNameBox input{
+    margin-left: 2px;
+}
+
+.lastNameHeading{
+    padding-left: 9px;
+}
+
+.firstNameHeading{
+    padding-left: 9px;
+}
+
+.emailAddressHeading{
+    padding-left: 22px;
+}
+
+.emailAddress input{
+    position: relative;
+    left: 15px;
+    width: 91%;
+}
+
+.inputFieldBox{
+    height: 20px;
+    width: 332px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    left: 15px;
+}
+
+.lastNameInputBox input{
+    width: 95%;
+}
+
+.firstNameInputBox input{
+    width: 95%;
+}
+
+.male{
+    margin-right: 17%;   
+    height: 95%;
+    border-radius: 25px;
+    /* width: 10%; */
+}
+
+.female{
+    height: 95%;
+    border-radius: 25px;
+}
+
+.male:hover{
+    cursor: pointer;
+    background-color: pink;
+}
+
+.female:hover{
+    cursor: pointer;
+    background-color: pink;
+}
+
+.genderHeading{
+    padding-left: 22px;
+}
+
+.cityBox input{
+    position: relative;
+    left: 15px;
+    width: 91%;
+}
+
+.cityHeading{
+    padding-left: 22px;
+}
+
+.countryHeading{
+    padding-left: 22px;
+}
+
+.countryBox input{
+    position: relative;
+    left: 15px;
+    width: 91%;
+}
+
+.registerButton button{
+    position: relative;
+    left: 15px;
+    width: 91%;
+
+    background-color: pink;
+}
+
+.registerButton button:hover{
+    cursor: pointer;
+}
+
+.item{
+    padding-top: 16px;
+    /* height: 20%; */
+}
+
+.inputBox{
+    height: 10%;
+}
