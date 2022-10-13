@@ -46,7 +46,7 @@ const Login = () => {
                 </div>
 
                 <div className="registerButton item">
-                    <button type="submit">RESITER NOW</button>
+                    <button type="submit">REGISTER NOW</button>
                 </div>
 
             </div>
