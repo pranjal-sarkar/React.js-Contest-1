@@ -1,6 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    background-color: rgba(121, 74, 74, 0.486);
 }
 
 .container{
@@ -14,7 +20,7 @@
 .actualContent{
     height: 434px;
     width: 362px;
-    background-color: red;
+    background-color: rgb(60, 149, 169);
 }
 
 .nameBox{
@@ -23,12 +29,9 @@
     align-items: center;
 }
 
-/* .emailAddress input{
-    width: 80%;
-} */
-
 .lastNameBox input{
     margin-left: 2px;
+    height: 37px;
 }
 
 .lastNameHeading{
@@ -47,10 +50,12 @@
     position: relative;
     left: 15px;
     width: 91%;
+
+    height: 37px;
 }
 
 .inputFieldBox{
-    height: 20px;
+    /* height: 20px; */
     width: 332px;
     display: flex;
     justify-content: center;
@@ -58,26 +63,30 @@
     background-color: white;
     position: relative;
     left: 15px;
+
+    height: 37px;
 }
 
 .lastNameInputBox input{
     width: 95%;
+    height: 37px;
+    height: 37px;
 }
 
 .firstNameInputBox input{
     width: 95%;
+    height: 37px;
 }
 
 .male{
     margin-right: 17%;   
-    height: 95%;
-    border-radius: 25px;
-    /* width: 10%; */
+    width: 41px;
+    border-radius: 6px;
 }
 
 .female{
-    height: 95%;
-    border-radius: 25px;
+    /* height: 95%; */
+    border-radius: 6px;
 }
 
 .male:hover{
@@ -98,6 +107,8 @@
     position: relative;
     left: 15px;
     width: 91%;
+
+    height: 37px;
 }
 
 .cityHeading{
@@ -112,18 +123,22 @@
     position: relative;
     left: 15px;
     width: 91%;
+
+    height: 37px;
 }
 
 .registerButton button{
     position: relative;
     left: 15px;
     width: 91%;
+    height: 37px;
 
     background-color: pink;
 }
 
 .registerButton button:hover{
     cursor: pointer;
+    background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
 }
 
 .item{
