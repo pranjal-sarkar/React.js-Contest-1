@@ -3,10 +3,11 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Mono', monospace;
+color: white;
 }
 
 body{
-    background-color: rgba(121, 74, 74, 0.486);
+    background-color: rgba(20, 206, 234, 0.947);
 }
 
 .container{
@@ -20,7 +21,7 @@ body{
 .actualContent{
     height: 503px;
     width: 362px;
-    background-color: rgb(60, 149, 169);
+    background-color: rgba(201, 18, 61, 0.995);
 }
 
 .nameBox{
@@ -136,6 +137,7 @@ body{
     height: 37px;
 
     background-color: pink;
+    color: black;
 }
 
 .registerButton button:hover{
