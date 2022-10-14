@@ -18,7 +18,7 @@ body{
 }
 
 .actualContent{
-    height: 434px;
+    height: 503px;
     width: 362px;
     background-color: rgb(60, 149, 169);
 }
@@ -92,11 +92,13 @@ body{
 .male:hover{
     cursor: pointer;
     background-color: pink;
+    padding: 5px;
 }
 
 .female:hover{
     cursor: pointer;
     background-color: pink;
+    padding: 5px;
 }
 
 .genderHeading{
@@ -150,4 +152,8 @@ body{
     height: 10%;
     text-align: center;
     font-size: 13px;
+}
+
+h1{
+    text-align: center;
 }
