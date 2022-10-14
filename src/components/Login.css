@@ -83,11 +83,15 @@ body{
     margin-right: 17%;   
     width: 41px;
     border-radius: 6px;
+
+    color: black;
 }
 
 .female{
     /* height: 95%; */
     border-radius: 6px;
+
+    color: black;
 }
 
 .male:hover{
